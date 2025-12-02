@@ -44,7 +44,7 @@ graph TD
     end
 
     subgraph "The Compliance Layer"
-        API -->|Check CAS No.| Policy[NovaPolicy (REACH)]
+        API -->|Check CAS No.| Policy["NovaPolicy (REACH)"]
         API -->|Register Hazard| Mat[NovaMaterial]
         API -->|Dispose| Recycle[NovaRecycle]
     end
